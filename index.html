@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.png" alt="Logo" width="60" height="60">
+            </a>
+
+            <!-- Bouton ouvrir le menu -->
+            <button class="navbar-toggler btn-outline-light rounded-5 px-4 py-3" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liens -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-4 text-center">
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3 " href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3" href="#">Véhicules</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3" href="#">Matériels</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3" href="#">Menu nav</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3" href="#">Menu nav</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="btn btn-outline-light rounded-5 px-4 py-3" href="#">Tarifs</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                        <h1 class="display-3 fw-bold text-white mb-4">Aéro-Club <br> Frotey-Lès-Lures</h1>
+                        <p class="text-white fs-4" >
+                            Bienvenue dans ACL2F, l’association vous offre la chance de pratiquer l’aviation légère
+                            dans un environnement exceptionnel.
+                        </p>
+
+                        <button type="button"
+                            class="btn btn-light d-flex gap-2 rounded-5 px-5 py-3 fs-6 fw-semibold mt-5">
+                            <i class="bi bi-chevron-down"></i>
+                            Décrouvrir plus
+                        </button>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center mt-lg-0 mt-5 position-relative">
+                    <!-- image arriere -->
+                    <img src="image/plane1.png" alt="Image avion"
+                        class="img-fluid rounded-4 shadow w-100 mb-4" />
+
+                    <!--image superposée devant -->
+                    <img src="image/plane2.png" alt="Petit avion"
+                        class="position-absolute bottom-0 start-0 translate-middle-x img-fluid d-none d-lg-block" />
+                </div>
+            </div>
+        <div>    
+    </section>
+    <section class="section2 mt-5">
+        <div class="container">
+                <h2 class="fw-semibold text-white mb-5 text-center">Nos Véhicules</h2>
+                <div class="row g-5 justify-content-center mt-5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow rounded-4 pb-4 border-0">
+                            <img src="image/autogires.jpg" class="card-img-top rounded-top-4"
+                                alt="autogires (petit hélicoptere)" />
+                            <div class="card-body">
+                                <h5 class="bordercard-title fw-semibold text-center mt-2">Autogires</h5>
+                                <p class="card-text pt-4 px-2 fs-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque tincidunt rutrum sapien, sed ultricies diam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow rounded-4 pb-4 border-0">
+                            <img src="image/pendulaire1.jpg" class="card-img-top rounded-top-4"
+                                alt="Pendulaire" />
+                            <div class="card-body">
+                                <h5 class="bordercard-title fw-semibold text-center mt-2">Pendulaire</h5>
+                                <p class="card-text pt-4 px-2 fs-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque tincidunt rutrum sapien, sed ultricies diam.
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow rounded-4 pb-4 border-0">
+                            <img src="image/avion.jpg" class="card-img-top rounded-top-4"
+                                alt="Multi-axes (avion)" />
+                            <div class="card-body">
+                                <h5 class="bordercard-title fw-semibold text-center mt-2">Multi-axes</h5>
+                                <p class="card-text pt-4 px-2 fs-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque tincidunt rutrum sapien, sed ultricies diam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>          
+    
+                
+
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

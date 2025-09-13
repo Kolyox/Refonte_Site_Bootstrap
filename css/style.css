@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root{
+    --font: "Lexend", sans-serif; 
+    --background-color1: #4FA3D8; 
+    --background-color2: #2C3E50;
+    --black: 0,0,0;
+}
+
+
+body{
+    background-color: var(--background-color1);
+    font-family: var(--font);
+}
+
+nav{
+    background-color: rgb(var(--black), 0.5);
+    backdrop-filter: blur(20px)
+}
+
+
+.top-section{
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+.section2 {
+    padding-top: 100px;
+    background-color: var(--background-color2);
+}
+
