@@ -21,12 +21,22 @@ nav{
 
 
 .top-section{
-    padding-top: 130px;
+    padding-top: 140px;
     padding-bottom: 40px;
 }
 
 .section2 {
     padding-top: 100px;
     background-color: var(--background-color2);
+    padding-bottom: 130px;
 }
+
+.section3 .bi{
+    font-size: 2rem;
+}
+
+.section3{
+    padding-top: 50px;
+}
+
 
