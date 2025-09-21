@@ -22,7 +22,7 @@ nav {
 	padding-bottom: 40px;
 }
 
-.section2, .section4 {
+.section2, .section4 , .section6 {
 	padding-top: 100px;
 	background-color: var(--background-color2);
 	padding-bottom: 130px;
@@ -40,6 +40,24 @@ h2{
 	margin-bottom: 5rem;
 }
 
+
+.formulaire {
+  background: rgba(var(--black), 0.20); 
+}
+
+.formulaire .form-control {
+  background: rgba(var(--black), 0.2);
+  border: 1px solid rgba(var(--black), 0.2);
+
+}
+.formulaire .form-control::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+.formulaire .form-control:focus {
+  border-color: var(--background-color1);
+  color: white;
+}
 
 
 
