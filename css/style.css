@@ -17,6 +17,11 @@ nav {
 	backdrop-filter: blur(20px);
 }
 
+.logo{
+	height: 60px;
+	width: 60px;
+}
+
 .top-section {
 	padding-top: 140px;
 	padding-bottom: 40px;
@@ -43,7 +48,7 @@ h2 {
 }
 
 .footer {
-	background-color: #060f18;
+	background-color: rgb(var(--black), 0.5)
 }
 
 .formulaire {
@@ -67,4 +72,8 @@ h2 {
 .section6 .rounded-circle {
 	width: 50px;
 	height: 50px;
+}
+
+#messageform{
+	display:none;
 }
