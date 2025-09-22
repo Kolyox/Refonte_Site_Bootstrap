@@ -48,7 +48,7 @@ h2{
 .formulaire .form-control {
   background: rgba(var(--black), 0.2);
   border: 1px solid rgba(var(--black), 0.2);
-
+  color: white;
 }
 .formulaire .form-control::placeholder {
   color: white;
@@ -59,7 +59,7 @@ h2{
   color: white;
 }
 
-.rounded-circle {
+.section6 .rounded-circle {
   width: 50px;
   height: 50px;
 }
